@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+.footer {
+    margin-top: rem(120px);
+    border-top: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-5));
+    background-color: rgb(174, 229, 252);
+    height: 300px;
+}
+  
+.inner {
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--mantine-spacing-md) var(--mantine-spacing-md);
+  
+    @media (max-width: $mantine-breakpoint-sm) {
+      flex-direction: column;
+    }
+}
+  
+.links {
+    @media (max-width: $mantine-breakpoint-sm) {
+      margin-top: var(--mantine-spacing-lg);
+      margin-bottom: var(--mantine-spacing-sm);
+    }
+}
+
+.footerLogo {
+    line-height: 100px;
+    font-size: xx-large;
+    margin-left: 50px;
+    font-family: 'Amatic SC', cursive;
+    font-stretch: ultra-expanded;
+}
+
+.iconsWrapper {
+    margin: 0 auto;
+    display: flex;
+    width: 192px;
+}
+
+.icon {
+    margin: 20px;
+}
